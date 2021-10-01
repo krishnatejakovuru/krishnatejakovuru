@@ -1,10 +1,10 @@
 package compeopletechoops;
-//find the maximum and minum element in array
+//wite the program sorting array
 
-public class Max_min {
+public class Sort {
+
 	public static void main(String[] args) {
-
-		int arr[] = { 5, 15, 67, 25, 28 };
+		int arr[] = { 23, 58, 13, 12, 125 };
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = i; j < arr.length; j++) {
 				int temp;
@@ -16,9 +16,5 @@ public class Max_min {
 			}
 			System.out.println(arr[i] + " ");
 		}
-		System.out.println("min array " + arr[0]);
-		int max = arr.length - 1;
-		System.out.println("max array " + arr[max]);
 	}
-
 }
